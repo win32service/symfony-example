@@ -26,6 +26,25 @@ Execute the command
 php composer.phar install -o
 ```
 
+# Read the code and configuration
+
+## Enable the bundle
+
+Read into the [config/bundles.php](config/bundles.php).
+
+## Configure the bundle
+
+Read the configuration into [the file](config/packages/win32_service.yaml)
+
+## Extends the abstract class
+
+Read the code into [this class](src/WindowsService/FirstService.php)
+
+## Configure the service
+
+Read the configuraion of [the service](config/services.yaml)
+
+
 # Manage Services
 
 ## Register
