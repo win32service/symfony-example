@@ -1,0 +1,24 @@
+win32_service:
+  windows_local_encoding: ISO-8859-1
+  services:
+    -
+      service_id: "my_service"
+      displayed_name: "My beautiful service"
+      delayed_start: true
+      exit:
+        graceful: false
+        code: 2
+      user:
+        account: ~
+        password: ~
+      recovery:
+        enable: true
+        delay: 60000
+        action1: 1
+        action2: 1
+        action3: 1
+        reboot_msg: ""
+        command: ""
+        reset_period: 86400
+      dependencies:
+        - Netman
