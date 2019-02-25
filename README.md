@@ -30,7 +30,7 @@ php composer.phar install -o
 
 ## Enable the bundle
 
-Read into the [config/bundles.php](config/bundles.php).
+Read into the [config/bundles.php](config/bundles.php#L5).
 
 ## Configure the bundle
 
@@ -42,7 +42,7 @@ Read the code into [this class](src/WindowsService/FirstService.php)
 
 ## Configure the service
 
-Read the configuraion of [the service](config/services.yaml)
+Read the configuraion of [the service](config/services.yaml#L29)
 
 
 # Manage Services
